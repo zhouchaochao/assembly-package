@@ -1,23 +1,24 @@
-ÕâÊÇÒ»¸öÊ¹ÓÃassembly²å¼ş½øĞĞ´ò°üµÄÍêÕû³ÌĞò¡£
-´ò°üºóµÄÔËĞĞ°üµÄÄ¿Â¼½á¹¹£º
+è¿™æ˜¯ä¸€ä¸ªä½¿ç”¨assemblyæ’ä»¶è¿›è¡Œæ‰“åŒ…çš„å®Œæ•´ç¨‹åºã€‚
+æ‰“åŒ…åçš„è¿è¡ŒåŒ…çš„ç›®å½•ç»“æ„ï¼š
     ./bin
     ./conf
     ./lib
-¿ÉÒÔÔËĞĞbinÏÂµÄ½Å±¾ÆôÍ£³ÌĞò¡£
+å¯ä»¥è¿è¡Œbinä¸‹çš„è„šæœ¬å¯åœç¨‹åºã€‚
 
 
-mavenÖ´ĞĞpackageÉúÃüÖÜÆÚ
-Êä³öÈÕÖ¾£º
-¡£¡£¡£¡£¡£¡£
+mavenæ‰§è¡Œpackageç”Ÿå‘½å‘¨æœŸ
+è¾“å‡ºæ—¥å¿—ï¼š
+ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
 [INFO] --- maven-assembly-plugin:2.4:single (make-assembly) @ assembly-package ---
 [INFO] Building zip: D:\myIdeaProject\assembly-package\target\assembly-package-1.0-SNAPSHOT-assembly.zip
-¡£¡£¡£¡£¡£¡£
+ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
 
-½«´ò°üºÃµÄzip°ü assembly-package-1.0-SNAPSHOT-assembly.zip ÉÏ´«µ½·şÎñÆ÷
-½âÑ¹
+å°†æ‰“åŒ…å¥½çš„zipåŒ… assembly-package-1.0-SNAPSHOT-assembly.zip ä¸Šä¼ åˆ°æœåŠ¡å™¨
+è§£å‹
 unzip assembly-package-1.0-SNAPSHOT-assembly.zip -d assembly-package-1.0-SNAPSHOT-assembly
 
-ÓÉÓÚshell½Å±¾ÊµÔÚWindowsÏÂ±à¼­µÄ£¬ÎÄ¼ş½áÊø·ûÓëLinuxÏµÍ³²»Í¬¡£ËùÒÔĞèÒªÉèÖÃ½Å±¾µÄ¸ñÊ½ÎªLinux¸ñÊ½
+ç”±äºshellè„šæœ¬å®åœ¨Windowsä¸‹ç¼–è¾‘çš„ï¼Œæ–‡ä»¶ç»“æŸç¬¦ä¸Linuxç³»ç»Ÿä¸åŒã€‚æ‰€ä»¥éœ€è¦è®¾ç½®è„šæœ¬çš„æ ¼å¼ä¸ºLinuxæ ¼å¼:
+
 vim start.sh
 :set fileformat=unix
 wq
@@ -26,15 +27,15 @@ vim stop.sh
 :set fileformat=unix
 wq
 
-OK£¡
+OKï¼
 
-#ÉÏ´«µ½github
-ÔÚgithub´´½¨¿âhttps://github.com/zhouchaochao/assembly-package.git
-ÔÚ D:\myIdeaProject\assembly-packageÖ´ĞĞgitÃüÁî£º
+ä¸Šä¼ åˆ°github
+åœ¨githubåˆ›å»ºåº“https://github.com/zhouchaochao/assembly-package.git
+åœ¨ D:\myIdeaProject\assembly-packageæ‰§è¡Œgitå‘½ä»¤ï¼š
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/zhouchaochao/assembly-package.git
 git push -u origin master
 
-OK£¡
+OKï¼
