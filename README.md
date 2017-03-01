@@ -1,13 +1,17 @@
 这是一个使用assembly插件进行打包的完整程序。
+
 打包后的运行包的目录结构：
+
     ./bin
     ./conf
     ./lib
+ 
 可以运行bin下的脚本启停程序。
 
 
 maven执行package生命周期
 输出日志：
+
 。。。。。。
 [INFO] --- maven-assembly-plugin:2.4:single (make-assembly) @ assembly-package ---
 [INFO] Building zip: D:\myIdeaProject\assembly-package\target\assembly-package-1.0-SNAPSHOT-assembly.zip
@@ -32,10 +36,16 @@ OK！
 上传到github
 在github创建库https://github.com/zhouchaochao/assembly-package.git
 在 D:\myIdeaProject\assembly-package执行git命令：
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/zhouchaochao/assembly-package.git
+
 git push -u origin master
+
 
 OK！
