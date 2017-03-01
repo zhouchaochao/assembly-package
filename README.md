@@ -2,10 +2,10 @@
 
 打包后的运行包的目录结构：
 
-    ./bin
-    ./conf
-    ./lib
- 
+./bin
+./conf
+./lib
+
 可以运行bin下的脚本启停程序。
 
 
@@ -33,12 +33,12 @@ vim start.sh
 
 wq
 
-
 vim stop.sh
 
 :set fileformat=unix
 
 wq
+
 
 
 OK！
@@ -61,4 +61,4 @@ git remote add origin https://github.com/zhouchaochao/assembly-package.git
 git push -u origin master
 
 
-OK！
+OK！！！
